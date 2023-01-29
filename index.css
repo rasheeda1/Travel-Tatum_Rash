@@ -1,0 +1,45 @@
+* {
+    font-family: Arial;
+}
+h1, h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+body{
+    background-color: rgb(255, 251, 245);
+}
+article{
+    /* adding gradient from css.com */
+    background: #9AAFD6;
+    background: -webkit-linear-gradient(top right, #eaecf1, #f1ecf0);
+    background: -moz-linear-gradient(top right, #eaecf1, #f1ecf0);
+    background: linear-gradient(to bottom left, #eaecf1, #f1ecf0);
+}
+header{
+    background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+
+}
+a{
+    color:lightseagreen;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    display: block;
+    height: 20%;
+    border: lightseagreen;
+}
+
+.subheading{
+    border: 2px solid rgb(155, 113, 113)
+
+}
+    
+
+header, img, article{
+    border: 2px solid rgb(247, 226, 226);
+    border-radius: 25px;
+    box-shadow: 2px snow;
+}
